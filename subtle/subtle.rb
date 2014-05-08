@@ -11,12 +11,10 @@ set :wmname, "LG3D"
 
 # == Screen http://subforge.org/projects/subtle/wiki/Multihead http://subforge.org/projects/subtle/wiki/Panel
 screen 1 do
-  top    [:views, :separator, :battery, :center, :title, :separator, :clock2, :separator, :cpu,  :separator, :memory, :separator, :mpd, :tray, :wifi]
- # bottom [:center, :battery, :cpu, :memory, :mpd, :tray, :wifi]
+   bottom [ :center, :views, :mpd, :clock]
 end
 screen 2 do
-  top    [:views, :separator, :battery, :center, :title, :separator, :clock2, :separator, :cpu,  :separator, :memory, :separator, :mpd, :tray, :wifi]
- # bottom [:center, :battery, :cpu, :memory, :mpd, :tray, :wifi]
+  top    [:views, :center, :title, :separator, :clock2, :separator, :cpu,  :separator, :memory, :separator, :mpd, :tray]
 end
 
 
