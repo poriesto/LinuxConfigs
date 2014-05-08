@@ -14,6 +14,11 @@ screen 1 do
   top    [:views, :separator, :battery, :center, :title, :separator, :clock2, :separator, :cpu,  :separator, :memory, :separator, :mpd, :tray, :wifi]
  # bottom [:center, :battery, :cpu, :memory, :mpd, :tray, :wifi]
 end
+screen 2 do
+  top    [:views, :separator, :battery, :center, :title, :separator, :clock2, :separator, :cpu,  :separator, :memory, :separator, :mpd, :tray, :wifi]
+ # bottom [:center, :battery, :cpu, :memory, :mpd, :tray, :wifi]
+end
+
 
 begin
   require "#{ENV["HOME"]}/.config/subtle/subtle-contrib/ruby/selector.rb"
